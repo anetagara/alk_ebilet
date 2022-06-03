@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EtollEbilet" verbose="1">
+    <test name="TC1:Sprawdź ważność biletu. Bilet nieważny. Sprawdzenie ważności biletu podając id biletu nieistniejącego" preserve-order="true" enabled="true">
+        <classes>
+            <class name="eBilet.TicketValidityTest"></class>
+        </classes>
+    </test>
+    <test name="TC2:Dokonaj zwrotu. Nieudany zwrot. Sprawdzenie możliwości zwrotu biletu podając id biletu nieistniejącego" preserve-order="true" enabled="true">
+        <classes>
+            <class name="eBilet.MakeReturnTest"></class>
+        </classes>
+    </test>
+    <test name="TC3:Kup e-bilet autostradowy. Nieudany zakup. Sprawdzenie możlwiości zakupu biletu na darmowej trasie" preserve-order="true" enabled="true">
+        <classes>
+            <class name="eBilet.BuyTicketForFreeRouteTest"></class>
+        </classes>
+    </test>
+    <test name="TC4:Kup e-bilet autostradowy. Nieudany zakup. Sprawdzenie możlwiości zakupu biletu dla tych samych węzłów" preserve-order="true" enabled="true">
+        <classes>
+            <class name="eBilet.BuyTicketForSameNodesTest"></class>
+        </classes>
+    </test>
+    <test name="TC5:Kup e-bilet autostradowy. Nieudany zakup. Sprawdzenie możlwiości zakupu biletu bez wybrania węzłów" preserve-order="true" enabled="true">
+        <classes>
+            <class name="eBilet.BuyTicketForEmptyNodesTest"></class>
+        </classes>
+    </test>
+</suite>

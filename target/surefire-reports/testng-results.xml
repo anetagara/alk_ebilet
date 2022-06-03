@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-16T15:34:49 CEST" name="EtollEbilet" finished-at="2022-05-16T15:36:42 CEST" duration-ms="112733">
+    <groups>
+    </groups>
+    <test started-at="2022-05-16T15:34:49 CEST" name="TC1:Sprawdź ważność biletu. Bilet nieważny. Sprawdzenie ważności biletu podając id biletu nieistniejącego" finished-at="2022-05-16T15:35:11 CEST" duration-ms="21171">
+      <class name="eBilet.TicketValidityTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:eBilet.TicketValidityTest@2473d930]" started-at="2022-05-16T15:34:50 CEST" name="setUp" finished-at="2022-05-16T15:34:57 CEST" duration-ms="7454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkTicketValidity()[pri:0, instance:eBilet.TicketValidityTest@2473d930]" started-at="2022-05-16T15:34:57 CEST" name="checkTicketValidity" description="Sprawdzenie ważności nieistniejącego biletu" finished-at="2022-05-16T15:35:10 CEST" duration-ms="13157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTicketValidity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:eBilet.TicketValidityTest@2473d930]" started-at="2022-05-16T15:35:10 CEST" name="tearDown" finished-at="2022-05-16T15:35:11 CEST" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- eBilet.TicketValidityTest -->
+    </test> <!-- TC1:Sprawdź ważność biletu. Bilet nieważny. Sprawdzenie ważności biletu podając id biletu nieistniejącego -->
+    <test started-at="2022-05-16T15:35:11 CEST" name="TC2:Dokonaj zwrotu. Nieudany zwrot. Sprawdzenie możliwości zwrotu biletu podając id biletu nieistniejącego" finished-at="2022-05-16T15:35:31 CEST" duration-ms="20732">
+      <class name="eBilet.MakeReturnTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:eBilet.MakeReturnTest@1139b2f3]" started-at="2022-05-16T15:35:11 CEST" name="setUp" finished-at="2022-05-16T15:35:15 CEST" duration-ms="4614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="makeReturnInvalidTest()[pri:0, instance:eBilet.MakeReturnTest@1139b2f3]" started-at="2022-05-16T15:35:15 CEST" name="makeReturnInvalidTest" description="Wprowadzenie nieistniejącego identyfikatora biletu, kliknięcie &#039;Dokonaj zwrotu&#039; i przejście do formularza kontaktowego" finished-at="2022-05-16T15:35:31 CEST" duration-ms="15732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeReturnInvalidTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:eBilet.MakeReturnTest@1139b2f3]" started-at="2022-05-16T15:35:31 CEST" name="tearDown" finished-at="2022-05-16T15:35:31 CEST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- eBilet.MakeReturnTest -->
+    </test> <!-- TC2:Dokonaj zwrotu. Nieudany zwrot. Sprawdzenie możliwości zwrotu biletu podając id biletu nieistniejącego -->
+    <test started-at="2022-05-16T15:35:31 CEST" name="TC3:Kup e-bilet autostradowy. Nieudany zakup. Sprawdzenie możlwiości zakupu biletu na darmowej trasie" finished-at="2022-05-16T15:35:56 CEST" duration-ms="24408">
+      <class name="eBilet.BuyTicketForFreeRouteTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:eBilet.BuyTicketForFreeRouteTest@1817d444]" started-at="2022-05-16T15:35:31 CEST" name="setUp" finished-at="2022-05-16T15:35:36 CEST" duration-ms="4280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="buyTicketForFreeRoute()[pri:0, instance:eBilet.BuyTicketForFreeRouteTest@1817d444]" started-at="2022-05-16T15:35:36 CEST" name="buyTicketForFreeRoute" description="Test próby zakupu biletu na darmowej trasie" finished-at="2022-05-16T15:35:55 CEST" duration-ms="19684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyTicketForFreeRoute -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:eBilet.BuyTicketForFreeRouteTest@1817d444]" started-at="2022-05-16T15:35:55 CEST" name="tearDown" finished-at="2022-05-16T15:35:56 CEST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- eBilet.BuyTicketForFreeRouteTest -->
+    </test> <!-- TC3:Kup e-bilet autostradowy. Nieudany zakup. Sprawdzenie możlwiości zakupu biletu na darmowej trasie -->
+    <test started-at="2022-05-16T15:35:56 CEST" name="TC4:Kup e-bilet autostradowy. Nieudany zakup. Sprawdzenie możlwiości zakupu biletu dla tych samych węzłów" finished-at="2022-05-16T15:36:20 CEST" duration-ms="23978">
+      <class name="eBilet.BuyTicketForSameNodesTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:eBilet.BuyTicketForSameNodesTest@4ac3c60d]" started-at="2022-05-16T15:35:56 CEST" name="setUp" finished-at="2022-05-16T15:36:00 CEST" duration-ms="4171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="buyTicketForSameNodes()[pri:0, instance:eBilet.BuyTicketForSameNodesTest@4ac3c60d]" started-at="2022-05-16T15:36:00 CEST" name="buyTicketForSameNodes" description="Test próby zakupu biletu dla takich samych węzłów" finished-at="2022-05-16T15:36:20 CEST" duration-ms="19529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyTicketForSameNodes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:eBilet.BuyTicketForSameNodesTest@4ac3c60d]" started-at="2022-05-16T15:36:20 CEST" name="tearDown" finished-at="2022-05-16T15:36:20 CEST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- eBilet.BuyTicketForSameNodesTest -->
+    </test> <!-- TC4:Kup e-bilet autostradowy. Nieudany zakup. Sprawdzenie możlwiości zakupu biletu dla tych samych węzłów -->
+    <test started-at="2022-05-16T15:36:20 CEST" name="TC5:Kup e-bilet autostradowy. Nieudany zakup. Sprawdzenie możlwiości zakupu biletu bez wybrania węzłów" finished-at="2022-05-16T15:36:42 CEST" duration-ms="22299">
+      <class name="eBilet.BuyTicketForEmptyNodesTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:eBilet.BuyTicketForEmptyNodesTest@4f209819]" started-at="2022-05-16T15:36:20 CEST" name="setUp" finished-at="2022-05-16T15:36:24 CEST" duration-ms="4372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="buyTicketNoNodesSelected()[pri:0, instance:eBilet.BuyTicketForEmptyNodesTest@4f209819]" started-at="2022-05-16T15:36:24 CEST" name="buyTicketNoNodesSelected" description="Test próby zakupu biletu bez wybranych węzłów" finished-at="2022-05-16T15:36:42 CEST" duration-ms="17595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyTicketNoNodesSelected -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:eBilet.BuyTicketForEmptyNodesTest@4f209819]" started-at="2022-05-16T15:36:42 CEST" name="tearDown" finished-at="2022-05-16T15:36:42 CEST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- eBilet.BuyTicketForEmptyNodesTest -->
+    </test> <!-- TC5:Kup e-bilet autostradowy. Nieudany zakup. Sprawdzenie możlwiości zakupu biletu bez wybrania węzłów -->
+  </suite> <!-- EtollEbilet -->
+</testng-results>
